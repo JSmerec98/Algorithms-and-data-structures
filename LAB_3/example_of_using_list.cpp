@@ -81,7 +81,6 @@ vector<Node> List::return_all_of_country(string country)
 {
     Node *t;
     t = head;
-
     Node p;
 
     vector<Node> Countries;
