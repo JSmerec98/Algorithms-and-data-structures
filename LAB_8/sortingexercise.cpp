@@ -24,7 +24,7 @@ int main()
     plik.open("file.txt",std::ios::in | std::ios::out);
     if( plik.good() == true )
     {
-         Person temp;
+        Person temp;
 
         while (!plik.eof())
         {
