@@ -74,7 +74,6 @@ int main()
     fstream plik;
 
     std::vector<int> tab;
-
     int value;
 
     plik.open("lista.txt",std::ios::in | std::ios::out);
